@@ -1,0 +1,207 @@
+.intro-section {
+    background: #000;
+    height: 100vh;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.main-heading {
+    font-size: 80px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 70px;
+}
+
+.main-heading strong {
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main-heading strong::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 5px;
+    bottom: 15px;
+    left: 0;
+    background: #748f8c;
+}
+
+
+.intro-section-mini-img {
+    width: auto;
+    height: 80px;
+}
+
+.intro-section-list {
+    display: inline-block;
+    list-style: none;
+    color: #748f8c;
+    font-size: 18px !important;
+    font-family: 'Heebo' !important;
+    margin-left: -20px;
+}
+
+
+/* software-qual-section */
+.software-qual-section {
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 45px !important;
+    font-family: 'Heebo' !important;
+    color: #212529;
+}
+
+.software-qual-section-row {
+    margin-top: 100px;
+}
+
+.software-qual-section-img {
+    width: 93px;
+    height: 94px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 30px !important;
+    font-family: 'Heebo' !important;
+    color: #212529;
+    margin-bottom: 30px;
+}
+
+.software-qual-section-text {
+    color: #748f8c;
+    font-size: 18px !important;
+    font-family: 'Heebo' !important;
+
+}
+
+/* software-qual-section end */
+
+/* rel-with-clients */
+.rel-with-clients {
+    background: #042825;
+    margin-top: 150px;
+    height: auto;
+}
+
+.rel-with-clients h3 {
+    color: white;
+    padding-top: 150px;
+}
+
+.rel-with-clients-row {
+    margin-top: 100px;
+}
+
+.rel-with-clients-divs {
+    border-left: 1px solid #dee2e6 !important;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.numbering {
+    font-size: 48px !important;
+    font-family: 'Heebo' !important;
+    color: #748f8c;
+}
+
+.rel-with-clients-divs h4 {
+    color: white;
+    font-size: 30px;
+}
+
+/* rel-with-clients end */
+
+/* our-work-section */
+
+.our-work-section {
+    background: #fdf6c9;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.our-work-section h3 {
+    padding-top: 200px;
+}
+
+.app-logo {
+    width: 150px;
+    height: auto;
+}
+
+/* our-work-section ends */
+/* client-review-section */
+.client-review-section {
+    background: #fdf6c9;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+.client-review-text {
+    color: black;
+    background: #ffff;
+    font-size: 34px;
+    padding: 100px;
+}
+
+.client-img {
+    border-radius: 50%;
+    height: 70px;
+
+}
+
+/* client-review-section end */
+/* about-clutch */
+.clutch-row {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about-clutch img {
+    height: 350px;
+}
+
+.about-clutch-text {
+    font-size: 34px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.name {
+    font-size: 15px;
+}
+
+/* about-clutch end */
+
+/* footer */
+footer {
+    padding-bottom: 150px;
+    background: #000;
+}
+
+footer h2 {
+    padding-top: 150px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Heebo', 'sans-serif';
+}
+
+.contact-label,
+.email-address {
+    color: #748f8c;
+    font-size: 24px;
+}
+
+.fa-github {
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+/* footer ends */
