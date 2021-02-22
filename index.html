@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Sitex</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!--fontawesome kitcode -->
@@ -13,6 +15,7 @@
 </head>
 
 <body>
+
     <!-- intro section -->
     <div class="container-fluid intro-section">
         <div class="container ">
@@ -23,13 +26,17 @@
                         Software development company for producing high-quality <strong>mobile</strong> and
                         <strong>web</strong> applications. <br />
                     </h1>
-                    <div class="d-flex">
-                        <img class="intro-section-mini-img" src="images/clutch-seal.png" />
-                        <img class="intro-section-mini-img" src="images/upwork-toprated-white.png" />
-                        <ul class="intro-section-list">
-                            <li>100% Project Success</li>
-                            <li>25+ reviews 5-star rating</li>
-                        </ul>
+                    <div class="d-flex icon-and-text">
+                        <div class="icon">
+                            <img class="intro-section-mini-img" src="images/clutch-seal.png" />
+                            <img class="intro-section-mini-img" src="images/upwork-toprated-white.png" />
+                        </div>
+                        <div class="header-ul">
+                            <ul class="intro-section-list">
+                                <li>100% Project Success</li>
+                                <li>25+ reviews 5-star rating</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -40,11 +47,11 @@
     <!--  software-qual-section-->
     <section class="software-qual-section">
         <div class="container">
-            <div class="col-xl-8 col-lg-10 text-left">
+            <div class="col-xl-8 col-lg-10 heading-div">
                 <h3>We always strive to deliver high-quality flexible software solution that is:</h3>
             </div>
             <div class="row software-qual-section-row">
-                <div class="col-lg-3">
+                <div class="col-xs-12 col-sm-12 col-lg-3 software-qual-section-row-inner-div">
                     <img class="software-qual-section-img" src="images/efficient.png" alt="software-qual-section-img">
                     <h4>Efficient</h4>
                     <p class="software-qual-section-text">
@@ -52,7 +59,7 @@
                     </p>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 software-qual-section-row-inner-div">
                     <img class="software-qual-section-img" src="images/reliable.png" alt="software-qual-section-img">
                     <h4>Reliable</h4>
                     <p class="software-qual-section-text">
@@ -60,14 +67,14 @@
                         before launch.
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 software-qual-section-row-inner-div">
                     <img class="software-qual-section-img" src="images/secure.png" alt="software-qual-section-img">
                     <h4>Secure</h4>
                     <p class="software-qual-section-text">
                         We use secure encryption algorithms and protocols to build robust applications.
                     </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 software-qual-section-row-inner-div">
                     <img class="software-qual-section-img" src="images/maintainable.png"
                         alt="software-qual-section-img">
                     <h4>Maintainable</h4>
@@ -85,21 +92,20 @@
     <section class="rel-with-clients">
         <div class="container-fluid">
             <div class="container">
-
                 <div class="col-xl-8 col-lg-10 text-left">
                     <h3>We build strong relationships with our clients by doing three things:</h3>
                 </div>
                 <div class="row rel-with-clients-row">
                     <div class="col-lg-4 rel-with-clients-divs">
-                        <span class="numbering">1</span>
+                        <span class="numbering"><p>1</p></span>
                         <h4>Being accountable for our projects.</h4>
                     </div>
                     <div class="col-lg-4 rel-with-clients-divs">
-                        <span class="numbering">2</span>
+                        <span class="numbering"><p>2</p></span>
                         <h4>Making our processes transparent.</h4>
                     </div>
                     <div class="col-lg-4 rel-with-clients-divs">
-                        <span class="numbering">3</span>
+                        <span class="numbering"><p>3</p></span>
                         <h4>Delivering excellent results.</h4>
                     </div>
                 </div>
@@ -160,7 +166,7 @@
             <div class="container">
                 <div class="row clutch-row">
                     <div class="col-lg-4">
-                        <img src="images/clutch_new.png" alt="clutch new">
+                        <img class="clutch-app-logo" src="images/clutch_new.png" alt="clutch new">
                     </div>
                     <div class="col-lg-8">
                         <p class="about-clutch-text">
@@ -193,6 +199,7 @@
             </div>
         </div>
     </footer>
+
 
 </body>
 
